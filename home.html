@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        /* navbar */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar {
+            width: 100%;
+            background-color: rgb(223, 222, 222);
+            height: 60px;
+        }
+
+
+        .links {
+            display: flex;
+        }
+
+        .lists {
+            width: 80px;
+            height: 40px;
+            text-align: center;
+            font-size: larger;
+            padding-top: 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .lists:hover{    
+            background-color: white;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+        }
+
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        h1{
+            margin-top: 50px;
+            margin-left: 55px;
+        }
+
+        .image{
+            width: 400px;
+            height: 400px;
+            margin-top: 100px; 
+            margin-left: 50px;
+            border-radius: 25px;
+        }
+
+        .daftar{
+            width: 600px;
+            height: 500px;
+            margin-left: 100px;
+        }
+
+        .homeTitle {
+            margin-right: 110px;
+        }
+
+        .home {
+            width: 500px;
+            height: 50px;
+            margin: auto;
+            margin-top: 50px;
+            text-indent: 50px;
+        }
+
+
+        ol {
+            margin-left: 70px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar">
+        <div class="links">
+            <!-- Links -->
+            <a class="lists" href="home.html">Home</a>
+            <a class="lists" href="content.html">Konten</a>
+            <a class="lists" href="about.html">About</a>
+            <a class="lists" href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!-- Make a Container -->
+    <div class="container">
+        <img src="assets/pulau_lengkuas.jpg" alt="Pulau Lengkuas" class="image">
+        <div class="daftar">
+            <!-- Make a home title -->
+            <h1 class="homeTitle">Bangka Belitung</h1>
+            <!-- make a home content -->
+            <p class="home">
+                Website ini bertujuan untuk megenalkan tempat apa saja yang di sediakan oleh Bangka Belitung. Dan salah satu nya adalah pulau lengkuas yang bisa dilihat di samping text ini.
+            </p>
+            <ol>
+                <li>
+                    Halaman Login
+                    <br>
+                    berisikan tempat memasukkan data anda ke website ini sebelum mengakses website ini.
+                </li>
+                <br>
+                <li>
+                    Halaman Home
+                    <br>
+                    Berisikan tentang "landing page" setelah anda login.
+                </li>
+                <br>
+                <li>
+                    Halaman Konten
+                    <br>
+                    Berisikan tentang beberapa artikel tentang pariwisata apa saja yang di sediakan oleh Bangka Belitung.
+                </li>
+                <br>
+                <li>
+                    Halaman About
+                    <br>
+                    Berisikan tentang pembuat website.
+                </li>
+                <br>
+                <li>
+                    Halaman Contact
+                    <br>
+                    Untuk anda yang ingin menghubungi saya, silahkan ke halaman kontak.
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #navbar {
+            width: 100%;
+            background-color: rgb(223, 222, 222);
+            height: 60px;
+        }
+
+
+        .links {
+            display: flex;
+        }
+
+        .lists {
+            width: 80px;
+            height: 40px;
+            text-align: center;
+            font-size: larger;
+            padding-top: 20px;
+            color: black;
+            text-decoration: none;
+        }
+
+        .lists:hover{    
+            background-color: white;
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+        }
+
+        .profile {
+            width: 250px;
+            height: 330px;
+            border-radius: 20%;
+            display: block;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 50px;
+        }   
+
+
+        .about, .about2 {
+            width: 450px;
+            height: 70px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about{
+            margin-top: 40px;
+        }
+
+
+        .icons{
+            text-align: center;
+            font-size: xx-large;
+            margin-top: 110px;
+            margin-bottom: 30px;
+        }
+
+        .icons a {
+            color: #000;
+        }
+
+        .icons a:hover {
+            transition-property: all;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-duration: 150ms;
+            color: rgb(109, 109, 109);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar">
+        <div class="links">
+            <!-- Links -->
+            <a class="lists" href="home.html">Home</a>
+            <a class="lists" href="content.html">Konten</a>
+            <a class="lists" href="about.html">About</a>
+            <a class="lists" href="contact.html">Contact</a>
+        </div>
+    </div>
+    <!-- Profile -->
+    <img src="assets/profile.jpg" alt="Profile" class="profile">
+    <h1>
+        Indra Madaharsa, 20208979
+        <br>
+        XIT10
+    </h1>
+    <!-- About -->
+    <div class="about">
+        Halo! saya Indra Madaharsa. Salah satu murid di SMK Telkom Jakarta. Saya alumni SD Al-Ashar dan MTs Asy-Syukriyyah Tangerang.
+    </div>
+    <div class="about2">
+        Saya adalah<i> Programmer </i> muda yang intuitif, percaya diri, dan suka mencoba hal yang berbau teknologi. Saya berkomitmen untuk melanjutkan dunia IT ke jenjang yang lebih tinggi, karena masa depan akan sangat membutuhkan orang-orang dengan background IT.
+        <br><br>
+        Salah satu kalimat yang saya camkan di diri saya adalah <br> "Jika kamu menyerah di tengah jalan, maka kemampuanmu belum melebihi 40% dari yang sebenarnya"
+    </div>
+    <!-- Icons -->
+    <div class="icons">
+        <a href="https://www.instagram.com/indro_mdhrs/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/indromhars" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/indra.madaharsa/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    </div>
+</body>
+</html>
